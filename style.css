@@ -1,0 +1,62 @@
+html, body{
+    margin:0px; padding:0;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+a {
+    text-decoration: none;      /* länk utan understreck  */
+}
+.rubrik {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.dolda {
+    display: none;             /* ej synlig på skärmen, tar ej plats  */
+}
+ul {
+    list-style-type: none;   /* ingen punktlista */
+}
+#landrad {
+    display: flex;            /* flexibel layout och wrapping */
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+}
+#landnamn {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#btnland {
+    margin-right: 5px;
+}
+#valLand {
+    display: flex;            /* flexibel layout och wrapping */
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 40px;
+}
+#stadrad {
+    display: flex;            /* flexibel layout och wrapping */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#stadrad div {
+    width: 90px;
+}
+#namn {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#btnstad {
+    width: 80px;
+    margin-right: 5px;
+}
+#stadcontainer {
+display: flex;            /* flexibel layout och wrapping */
+flex-wrap: wrap;
+flex-direction: row;
+}
+#detaljcontainer {  
+    margin-top: 30px;  
+}
